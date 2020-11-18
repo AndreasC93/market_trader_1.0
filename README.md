@@ -1,6 +1,6 @@
 # market_trader
 ## Summary
-Market trader file takes in stock market data from alpaca api for chosen assets. In this case 'SPY','QQQ','UUP','GLD', and 'USO' though due to time constraints only SPY, UUP, and GLD were used in the decision tree and random forest machine learning models. The goal was to determine if machine learning can be used to determine the best time to use a particular algorithmic trading strategy. This program uses rolling average and RSI. We found that 
+Market trader file takes in stock market data from alpaca api for chosen assets. In this case 'SPY','QQQ','UUP','GLD', and 'USO' though due to time constraints only SPY, UUP, and GLD were used in the decision tree and random forest machine learning models. The goal was to determine if machine learning can be used to determine the best time to use a particular algorithmic trading strategy. This program uses rolling average and RSI. 
 
 ### Data and Analysis
 Rolling average was calculated as a standard indicator and RSI was chosen as a counter indicator. 
