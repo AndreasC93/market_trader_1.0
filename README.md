@@ -4,12 +4,12 @@ Market trader file takes in stock market data from alpaca api for chosen assets.
 
 ### Data and Analysis
 Rolling average was calculated as a standard indicator and RSI was chosen as a counter indicator. 
-Decision Trees:
+#### Decision Trees:
 	GLD: Good accuracy generally between 50-60%. This model has much better accuracy predicting positive movements vs negative. The highest overall accuracy appears at a depth of 3 with 5 features at 60%. Overall accuracy generally trends down after this peak.
 	UUP: Low overall accuracy under 50%. This model has higher accuracy predicting negative changes vs positive. The highest overall accuracy appears at a depth of 6 with 1 feature. Overall accuracy generally trends down after this peak.
 	SPY: Good accuracy generally between 55-60%. This model has much better accuracy predicting positive movements vs negative. The highest overall accuracy appears at a depth of 5 with 3 features at 62%. Overall accuracy generally trends down after this peak.
 
-Random Forest:
+#### Random Forest:
 	GLD:  Good accuracy generally between 55-60%. This model has much better accuracy predicting positive movements vs negative. The highest overall accuracy appears at a depth of 1 with 4 features at 60%. Overall accuracy generally trends down after this peak.
 	UUP:   Good accuracy generally between 55-60%. This model has much better accuracy predicting positive movements vs negative. The highest overall accuracy appears at a depth of 1 with 4 features at 60%. Overall accuracy generally trends down after this peak.
 	SPY:  Good accuracy generally between 55-60%. This model has much better accuracy predicting positive movements vs negative. The highest overall accuracy appears at a depth of 1 with 4 features at 62%. Overall accuracy generally trends down after this peak.
